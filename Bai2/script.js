@@ -1,4 +1,4 @@
-function leftTriangle(rows) {
+function triangle(rows) {
     if (rows < 1 || rows > 10) {
         alert('rows is invalid!');
         return;
@@ -17,4 +17,4 @@ function leftTriangle(rows) {
 }
 
 const rows = Number.parseInt(prompt('Please enter rows: '));
-console.log(leftTriangle(rows));
+console.log(triangle(rows));
